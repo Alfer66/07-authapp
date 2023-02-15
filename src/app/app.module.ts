@@ -10,6 +10,7 @@ import { PreciosComponent } from './components/precios/precios.component';
 
 // Import the module from the SDK
 import { AuthModule } from '@auth0/auth0-angular';
+import { CallbackComponent } from './components/callback/callback.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AuthModule } from '@auth0/auth0-angular';
     NavbarComponent,
     HomeComponent,
     ProtegidaComponent,
-    PreciosComponent
+    PreciosComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
